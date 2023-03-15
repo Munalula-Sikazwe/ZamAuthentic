@@ -2,7 +2,7 @@ from constants import DISTRICTS, PROVINCES, CONSTITUENCIES
 
 
 # function to return available provinces
-def get_provices() -> list:
+def get_provinces() -> list:
     return PROVINCES.copy()
 
 
@@ -16,16 +16,24 @@ def get_constituencies(district: str) -> list:
     return CONSTITUENCIES.get(district)
 
 
-# return
+# function that gets all districts available limited with a given limit. Default = 10
 def get_all_districts(limit: int = 10) -> list:
     all_districts: list = []
     for district in DISTRICTS.values():
         all_districts += district
+    if limit > len(all_districts):
+        return all_districts
     return all_districts[:limit]
 
 
+# function that gets all constituencies available with a given limit. Default = 10
 def get_all_constituencies(limit: int = 10) -> list:
     all_constituencies: list = []
     for constituency in CONSTITUENCIES.values():
         all_constituencies += constituency
+    if limit > len(all_constituencies):
+        return all_constituencies
     return all_constituencies[:limit]
+
+
+print(get_all_districts(200000))
