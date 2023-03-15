@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION: str = '0.0.4'
+VERSION: str = '0.0.6'
 DESCRIPTION: str = 'A validation library for Zambia'
 NAME: str = "zam_authentic"
 AUTHOR: str = "Munalula Sikazwe"
@@ -13,7 +13,10 @@ CLASSIFIERS: list = ['Programming Language :: Python :: 3', 'Programming Languag
                      'Intended Audience :: Developers', 'Topic :: Software Development :: Libraries :: Python Modules',
                      'Topic :: Utilities', 'Natural Language :: English']
 INSTALL_REQUIRES: list = ['phonenumbers']
-LONG_DESCRIPTION: str = 'A validation library meant to support application software built for the Zambian market. This may includes NRC,PHONENUMBER_VALIDATION AND LOCATIONS'
+LONG_DESCRIPTION: str = 'Readme.txt'
+with open('README.md', 'r') as file:
+    LONG_DESCRIPTION = file.read()
+
 ### settting up
 
 setup(
@@ -26,5 +29,6 @@ setup(
     install_requires=INSTALL_REQUIRES,
     keywords=KEY_WORDS,
     classifiers=CLASSIFIERS,
-    long_description=LONG_DESCRIPTION
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type='text/markdown',
 )
