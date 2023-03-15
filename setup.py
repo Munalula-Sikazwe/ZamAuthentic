@@ -12,7 +12,7 @@ CLASSIFIERS: list = ['Programming Language :: Python :: 3', 'Programming Languag
                      'Operating System :: OS Independent', 'Development Status :: 3 - Alpha',
                      'Intended Audience :: Developers', 'Topic :: Software Development :: Libraries :: Python Modules',
                      'Topic :: Utilities', 'Natural Language :: English']
-
+LONG_DESCRIPTION: str = 'A validation library meant to support application software built for the Zambian market. This may includes NRC,PHONENUMBER_VALIDATION AND LOCATIONS'
 ### settting up
 
 setup(
