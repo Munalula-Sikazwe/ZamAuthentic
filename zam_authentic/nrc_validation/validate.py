@@ -1,5 +1,5 @@
-from constants import ALLOWED_DELIMITERS
-from utils import validate_delimiter, create_nrc_regex, is_valid_nrc
+from .constants import ALLOWED_DELIMITERS
+from .utils import validate_delimiter, create_nrc_regex, is_valid_nrc
 
 
 # A function to check if the nrc is valid.
