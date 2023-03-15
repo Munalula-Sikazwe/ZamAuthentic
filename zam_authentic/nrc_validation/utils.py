@@ -16,4 +16,6 @@ def validate_delimiter(delimiter: str) -> bool:
 
 # function checks if  nrc is valid with the given delimiter.
 def is_valid_nrc(nrc_number: str, nrc_pattern: str):
+    if len(nrc_number) != 13:
+        return False
     return bool(match(nrc_pattern, nrc_number))
