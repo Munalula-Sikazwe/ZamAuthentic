@@ -1,6 +1,7 @@
 PROVINCES = ['Central Province', 'Copperbelt Province', 'Eastern Province', 'Luapula Province', 'Lusaka Province',
              'Muchinga Province', 'Northern Province', 'North-Western Province', 'Southern Province',
              'Western Province']
+
 DISTRICTS = {
     'Central Province': ['Chibombo', 'Kabwe', 'Kapiri Mposhi', 'Mkushi', 'Mumbwa', 'Serenje'],
     'Copperbelt Province': ['Chililabombwe', 'Chingola', 'Kalulushi', 'Kitwe', 'Luanshya', 'Lufwanyama', 'Masaiti',
@@ -17,7 +18,7 @@ DISTRICTS = {
     'Western Province': ['Kalabo', 'Kaoma', 'Lukulu', 'Mongu', 'Senanga', 'Sesheke', 'Shangombo']
 }
 
-constituencies_by_district = {
+CONSTITUENCIES = {
     'Chibombo': ['Chibombo Central', 'Kapiri Mposhi East', 'Kapiri Mposhi West'],
     'Kabwe': ['Bwacha', 'Kabwe Central', 'Kabwe North', 'Kabwe South', 'Makeni'],
     'Kapiri Mposhi': ['Chisamba', 'Kapiri Mposhi'],
@@ -48,5 +49,5 @@ constituencies_by_district = {
     'Nyimba': ['Katawa', 'Khothakota', 'Lunzi', 'Nyimba'],
     'Petauke': ['Chitambo', 'Gwembe', 'Kalindawalo', 'Katena', 'Lukusuzi', 'Lusangazi', 'Lwanya', 'Mumbwa Lutzi',
                 'Nyika'],
-   
+
 }
