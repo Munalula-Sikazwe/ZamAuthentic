@@ -1,6 +1,6 @@
 from phonenumbers import parse, NumberParseException, is_valid_number, carrier
 
-from constants import CARRIERS
+from .constants import CARRIERS
 
 
 def phonenumber_is_valid(phonenumber: str) -> bool:
