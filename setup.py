@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION: str = '0.0.1'
+VERSION: str = '0.0.2'
 DESCRIPTION: str = 'A validation library for Zambia'
 NAME: str = "zam_authentic"
 AUTHOR: str = "Munalula Sikazwe"
