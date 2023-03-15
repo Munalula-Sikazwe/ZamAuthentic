@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION: str = '0.0.3'
+VERSION: str = '0.0.1'
 DESCRIPTION: str = 'A validation library for Zambia'
-NAME: str = "zam_authetic"
+NAME: str = "zam_authentic"
 AUTHOR: str = "Munalula Sikazwe"
 AUTHOR_EMAIL: str = 'munalulasikazwe67@gmail.com'
 KEY_WORDS: list = ['validation', 'zambia', 'zambia_kyc', 'kyc']
@@ -25,5 +25,6 @@ setup(
     packages=find_packages(),
     install_requires=INSTALL_REQUIRES,
     keywords=KEY_WORDS,
-    classifiers=CLASSIFIERS
+    classifiers=CLASSIFIERS,
+    long_description=LONG_DESCRIPTION
 )
