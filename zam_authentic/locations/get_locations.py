@@ -1,4 +1,4 @@
-from constants import DISTRICTS, PROVINCES, CONSTITUENCIES
+from .constants import DISTRICTS, PROVINCES, CONSTITUENCIES
 
 
 # function to return available provinces
