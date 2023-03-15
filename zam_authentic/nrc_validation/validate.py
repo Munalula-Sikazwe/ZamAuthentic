@@ -11,6 +11,6 @@ def validate_nrc(nrc_number: str, delimiter: str = None) -> bool:
     if not is_valid:
         raise Exception(f'NRC delimiter is invalid! values should be seperated by {ALLOWED_DELIMITERS}')
     if delimiter not in nrc_number:
-        raise Exception(f'NRC not seperated by assigned delimiter!')
+        raise Exception(f'NRC not separated by assigned delimiter!')
     nrc_pattern = create_nrc_regex(delimiter)
     return is_valid_nrc(nrc_number, nrc_pattern)
