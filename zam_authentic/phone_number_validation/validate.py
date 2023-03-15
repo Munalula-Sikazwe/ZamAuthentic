@@ -23,6 +23,3 @@ def get_carrier(phone_number: str) -> str:
 # function returning all carriers handled by the library.
 def get_available_carriers() -> list:
     return CARRIERS.values()
-
-
-print(get_available_carriers())
