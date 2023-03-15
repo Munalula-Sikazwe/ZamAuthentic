@@ -1,6 +1,6 @@
 CARRIERS = {
-    "MTN": "73",
-    "Airtel": "97",
-    "Zamtel": "95",
-    "Beeline Telecoms": "96"
+    "73": "MTN",
+    "97": "Airtel",
+    "95": "Zamtel",
+    "96": "Beeline Telecoms"
 }

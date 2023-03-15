@@ -21,7 +21,7 @@ def get_carrier(phone_number: str) -> str:
 
 
 def get_available_carriers():
-    return list(CARRIERS.keys())
+    return list(CARRIERS.values())
 
 
 print(get_available_carriers())
