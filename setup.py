@@ -12,6 +12,7 @@ CLASSIFIERS: list = ['Programming Language :: Python :: 3', 'Programming Languag
                      'Operating System :: OS Independent', 'Development Status :: 3 - Alpha',
                      'Intended Audience :: Developers', 'Topic :: Software Development :: Libraries :: Python Modules',
                      'Topic :: Utilities', 'Natural Language :: English']
+INSTALL_REQUIRES: list = ['phonenumbers']
 LONG_DESCRIPTION: str = 'A validation library meant to support application software built for the Zambian market. This may includes NRC,PHONENUMBER_VALIDATION AND LOCATIONS'
 ### settting up
 
@@ -22,7 +23,7 @@ setup(
     author_email=AUTHOR_EMAIL,
     description=DESCRIPTION,
     packages=find_packages(),
-    install_requires=[],
+    install_requires=INSTALL_REQUIRES,
     keywords=KEY_WORDS,
     classifiers=CLASSIFIERS
 )
