@@ -3,7 +3,7 @@ from constants import NRC_PATTERN, ALLOWED_DELIMITERS
 
 # function to modify regex pattern based on delimiter passed .
 def create_nrc_regex(delimiter: str) -> str:
-    return NRC_PATTERN.replace('p', 'delimiter')
+    return NRC_PATTERN.replace('p', delimiter)
 
 
 # checks if the delimiter is one of the expected delimiters.
