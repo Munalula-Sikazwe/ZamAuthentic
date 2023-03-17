@@ -1,4 +1,5 @@
 from .constants import DISTRICTS, PROVINCES, CONSTITUENCIES, TOWNS, WARDS
+from .wards import WARDS
 
 
 # function to return available provinces
@@ -44,3 +45,4 @@ def get_towns(district: str) -> list:
 # function to retrieve all wards based on district.
 def get_wards(district: str) -> list:
     return WARDS.get(district)
+
