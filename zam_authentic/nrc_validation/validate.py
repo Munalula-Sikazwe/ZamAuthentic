@@ -4,6 +4,14 @@ from .utils import validate_delimiter, create_nrc_regex, is_valid_nrc
 
 # A function to check if the nrc is valid.
 def validate_nrc(nrc_number: str, delimiter: str = None) -> bool:
+    """
+    function to validate nrc pattern
+    Enter the  number and a possible delimiter also known as a seperator
+    to give the program a pattern to match.
+    Delimiter Defaults to None , at which point it assumes that there is no seperator between
+    the numbers.
+
+    """
     nrc_number = nrc_number.strip()
     is_valid = validate_delimiter(delimiter)
     if delimiter is None:
