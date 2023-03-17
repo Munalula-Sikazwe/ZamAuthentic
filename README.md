@@ -95,8 +95,9 @@ constituencies = get_constituencies("district-name")
 ```
 
 print(constituencies) # Returns a list of constituency names
-
-Disclaimer
+## Documentation
+For full documentation follow the link -> https://zamauthentic.readthedocs.io/en/latest/
+## Disclaimer
 This package is intended for educational purposes only and is not intended to be used in production systems without
 proper review and testing. The authors of this package are not responsible for any damages that may occur as a result of
 using this package. Use at your own risk.
