@@ -98,7 +98,13 @@ towns = {
     'Masaiti': ['Chambishi', 'Kansuswa', 'Masaiti', 'Masumbwe', 'Mpongwe', 'Nsansa', 'Sasambu'],
     'Mpongwe': ['Kabundi', 'Kasansa', 'Mpongwe Central', 'Musakambezi', 'Ndeke', 'Ndubulula', 'Nyoka', 'Samfya'],
     'Mufulira': ['Bondeni', 'Chantete', 'Kamuchanga', 'Kantanshi', 'Kashitu', 'Kokolwe', 'Luchenza', 'Mukuyu'],
-    'Ndola': ['Buseko', 'Chifubu', 'Chipulukusu', 'Chisokone', 'Chitamba', 'Chitongo', 'Fisenge', 'Kabwe', 'Kafubu', 'Kafulafuta', 'Kafue Estates', 'Kansenshi', 'Kansusu', 'Lubuto', 'Makeni', 'Masala', 'Mwamfuli', 'Mwambashi', 'Ndola Central', 'Nkwazi', 'Nsoko', 'Pamodzi', 'Shimpenzwe', 'Twapia']
-
+    'Ndola': ['Buseko', 'Chifubu', 'Chipulukusu', 'Chisokone', 'Chitamba', 'Chitongo', 'Fisenge', 'Kabwe', 'Kafubu', 'Kafulafuta', 'Kafue Estates', 'Kansenshi', 'Kansusu', 'Lubuto', 'Makeni', 'Masala', 'Mwamfuli', 'Mwambashi', 'Ndola Central', 'Nkwazi', 'Nsoko', 'Pamodzi', 'Shimpenzwe', 'Twapia'],
+    'Chadiza': ['Chadiza', 'Chikowa', 'Chipwepwete', 'Chiwuyu', 'Kazembe', 'Kapichila', 'Lukusuzi', 'Lumezi', 'Lutembwe', 'M’nyenyembe', 'Makalulu', 'Mphamba', 'Mphomwa', 'Msipazi', 'Msolo', 'Muzoka', 'Nkhanga'],
+    'Chipata': ['Chanida', 'Chanjuzi', 'Chasenga', 'Chikando', 'Chikowa', 'Chimutengo', 'Chinyunyu', 'Chipangali', 'Chipata', 'Chitambala', 'Chitandika', 'Chitekwe', 'Chitungulu', 'Chiwuyu', 'Kapata', 'Kapichila', 'Kazembe', 'Lundazi', "M'chini", 'Mkanda', 'Mphangwe', 'Msekera', 'Msoro', 'Mthope', 'Mundazi', 'Mushili', 'Mwami', 'Nyimba', 'Sinda', 'Vubwi'],
+    'Katete': ['Katete'],
+    'Lundazi': ['Lundazi'],
+    'Mambwe': ['Mambwe'],
+    'Nyimba': ['Nyimba'],
+    'Petauke': ['Petauke']
 }
 
