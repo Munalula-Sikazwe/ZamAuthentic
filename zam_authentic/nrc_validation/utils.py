@@ -1,6 +1,6 @@
 from re import match
 
-from constants import NRC_PATTERN, ALLOWED_DELIMITERS
+from .constants import NRC_PATTERN, ALLOWED_DELIMITERS
 
 
 # function to modify regex pattern based on delimiter passed .

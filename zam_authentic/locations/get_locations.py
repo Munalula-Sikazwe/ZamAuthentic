@@ -4,6 +4,7 @@ from .wards import WARDS
 
 # function to return available provinces
 def get_provinces() -> list:
+
     return PROVINCES.copy()
 
 
