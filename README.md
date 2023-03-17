@@ -3,7 +3,7 @@
 Zam-Authentic is a Python package that provides validation functions for applications created in Zambia. It includes
 validation for phone numbers, National Registration Card (NRC) numbers, and location data.
 
-## Github Link
+## GitHub Link
 
     https://github.com/Munalula-Sikazwe/ZamAuthentic
 
