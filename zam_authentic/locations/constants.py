@@ -51,7 +51,7 @@ CONSTITUENCIES = {
                 'Nyika'],
 
 }
-lusaka_wards =  {
+wards =  {
     'Chibolya': ['Chibolya Ward', 'Chibolya West Ward', 'Kuku Compound'],
     'Chilenje': ['Chilenje Ward', 'Chilenje South Ward', 'Chilenje North Ward', 'Chawama Ward'],
     'Chimwemwe': ['Chimwemwe Ward', 'Helen Kaunda Ward', 'Kanyama Ward'],
@@ -80,22 +80,25 @@ lusaka_wards =  {
     'Thorn Park': ['Thorn Park Ward', 'Chelston Ward', 'Kabulonga Ward'],
     'Woodlands': ['Woodlands Ward']
 }
+towns = {
+    'Chibombo': ['Chisamba', 'Chitambo', 'Ichengelo', 'Kabwe', 'Kapiri Mposhi', 'Mkushi', 'Ngabwe'],
+    'Kabwe': ['Bwacha', 'Chimanimani', 'Kabwe Central', 'Kabwe East', 'Kabwe West', 'Katondo', 'Makululu'],
+    'Kapiri Mposhi': ['Bwacha', 'Kapiri Mposhi', 'Kwamwena', 'Muma', 'Nkondashi', 'Nsenga', 'Tazara'],
+    'Mkushi': ['Kanona', 'Lwitikila', 'Mkushi North', 'Mkushi South', 'Ntumbachushi', 'Serenje'],
+    'Mumbwa': ['Chibombo', 'Chisamba', 'Munyumbwe', 'Mumbwa Central', 'Musakashi', 'Nangoma', 'Shimabala'],
+    'Serenje': ['Chisomo', 'Kanona', 'Kasunko', 'Kateshi', 'Kwika', 'Serenje'],
+    'Chililabombwe': ['Chililabombwe Central', 'Hellen', 'Kawama', 'Mimbula', 'Mukulumpe', 'Nchanga'],
+    'Chingola': ['Chikola', 'Chingola Central', 'Fisenge', 'Kapisha', 'Kasompe', 'Mukulumpe'],
+    'Kalulushi': ['Buntungwa', 'Chambishi', 'Chilenga', 'Kalulushi Central', 'Kantanshi', 'Kashitu', 'Mokambo',
+                  'Wusakile'],
+    'Kitwe': ['Buchichi', 'Bulangililo', 'Chamboli', 'Chimwemwe', 'Chisokone', 'Chiwala', 'Garden', 'Kamfinsa',
+              'Kantanshi', 'Mindolo', 'Nkana', 'Parklands', 'Race Course', 'Wusakile'],
+    'Luanshya': ['Fisenge', 'Kamirenda', 'Kansengu', 'Luanshya Central', 'Mikomfwa', 'Milyashi', 'Roan', 'Zambezi'],
+    'Lufwanyama': ['Kafubu', 'Kamfinsa', 'Kapalala', 'Lufwanyama Central', 'Lumwana', 'Milyashi', 'Mufuchani'],
+    'Masaiti': ['Chambishi', 'Kansuswa', 'Masaiti', 'Masumbwe', 'Mpongwe', 'Nsansa', 'Sasambu'],
+    'Mpongwe': ['Kabundi', 'Kasansa', 'Mpongwe Central', 'Musakambezi', 'Ndeke', 'Ndubulula', 'Nyoka', 'Samfya'],
+    'Mufulira': ['Bondeni', 'Chantete', 'Kamuchanga', 'Kantanshi', 'Kashitu', 'Kokolwe', 'Luchenza', 'Mukuyu'],
+    'Ndola': ['Buseko', 'Chifubu', 'Chipulukusu', 'Chisokone', 'Chitamba', 'Chitongo', 'Fisenge', 'Kabwe', 'Kafubu', 'Kafulafuta', 'Kafue Estates', 'Kansenshi', 'Kansusu', 'Lubuto', 'Makeni', 'Masala', 'Mwamfuli', 'Mwambashi', 'Ndola Central', 'Nkwazi', 'Nsoko', 'Pamodzi', 'Shimpenzwe', 'Twapia']
 
-towns_in_lusaka_district = [
-    'Chelston',
-    'Chilenje',
-    'Chudleigh',
-    'Ibex Hill',
-    'Kabulonga',
-    'Kalundu',
-    'Kamanga',
-    'Makeni',
-    'Matero',
-    'Mtendere',
-    'Munali',
-    'Ngwerere',
-    'Northmead',
-    'Olympia',
-    'Roma',
-    'Woodlands'
-]
+}
+

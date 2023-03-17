@@ -1,4 +1,4 @@
-from .constants import DISTRICTS, PROVINCES, CONSTITUENCIES
+from .constants import DISTRICTS, PROVINCES, CONSTITUENCIES,towns_in_lusaka_district
 
 
 # function to return available provinces
@@ -36,4 +36,5 @@ def get_all_constituencies(limit: int = 10) -> list:
     return all_constituencies[:limit]
 
 
-print(get_all_districts(200000))
+def get_towns(district:str)-> list:
+    return towns_in_lusaka_district
