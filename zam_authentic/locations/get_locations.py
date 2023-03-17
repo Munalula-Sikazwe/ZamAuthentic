@@ -36,9 +36,11 @@ def get_all_constituencies(limit: int = 10) -> list:
     return all_constituencies[:limit]
 
 
+# function to retrieve all towns based on district.
 def get_towns(district: str) -> list:
     return TOWNS.get(district)
 
 
+# function to retrieve all wards based on district.
 def get_wards(district: str) -> list:
     return WARDS.get(district)
