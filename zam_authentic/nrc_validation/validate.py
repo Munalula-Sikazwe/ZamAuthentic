@@ -10,6 +10,10 @@ def validate_nrc(nrc_number: str, delimiter: str = None) -> bool:
     to give the program a pattern to match.
     Delimiter Defaults to None , at which point it assumes that there is no seperator between
     the numbers.
+    :param nrc_number: this is the nrc number you wish to validate e.g 223432/12/1
+    :param delimiter: this is the separator that determines how your nrc values are seperated.
+    :return bool: it returns a boolean values that can be use to determine if nrc is valid or not True/False
+
 
     """
     nrc_number = nrc_number.strip()
