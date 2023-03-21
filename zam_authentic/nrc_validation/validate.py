@@ -26,3 +26,6 @@ def validate_nrc(nrc_number: str, delimiter: str = None) -> bool:
         raise Exception(f'NRC not separated by assigned delimiter!')
     nrc_pattern = create_nrc_regex(delimiter)
     return is_valid_nrc(nrc_number, nrc_pattern)
+
+
+print(validate_nrc("337788/10/1", delimiter='/'))
