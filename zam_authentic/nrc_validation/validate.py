@@ -28,4 +28,4 @@ def validate_nrc(nrc_number: str, delimiter: str = None) -> bool:
     return is_valid_nrc(nrc_number, nrc_pattern)
 
 
-print(validate_nrc("337788/10/1", delimiter='/'))
+
